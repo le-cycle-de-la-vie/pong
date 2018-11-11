@@ -1,18 +1,21 @@
-# pong
-Pong refactoring :
-1 - Design 'Mario'
-    a - player a & b (Mario, Luigi, Peach, Browser, etc)
-    b - ball (coin, brick, spike, canon, etc.)
-    c - UI (start, pause, score, restart)
+# Pong
 
-2 - Features
-    b - start screen (select character, ready button, start button)
-    c - wait for second before the game start
-    d - change the score to a manche score (player win at 3)
+This project is made to learn the basics of 2D gaming with Unity
 
-3 - Super Features
-    a - ball chosen changes its behaviour (faster, slower, bouncy, sticky, etc.)
-    b - player changes the properties of the paddle (larger, stronger, etc.)
-    c - after each change, a roulette is launched changing the ball for the game.
+## Design
 
+The design will be around the Nintendo Mario universe
 
+## Features
+
+1. Select players (Mario, Luigi, Peach, ...), ready button and start button
+2. Generate a ball randomly (coin, brick, spike, canon, ...)
+3. Countdown before game start (3, 2, 1, GO)
+4. Player lose the trade if he cant catch the ball, the first at 2 losses lose the match
+5. Basic UI (start, pause, score and restart)
+
+## Bonus Features
+
+1. Ball chosen changes its behaviour (faster, slower, bouncy, sticky, etc.)
+2. Player changes the properties of the paddle (larger, stronger, etc.)
+3. After each change, a roulette is launched changing the ball for the game.
