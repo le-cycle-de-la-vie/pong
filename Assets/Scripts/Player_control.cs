@@ -9,7 +9,7 @@ public class Player_control : MonoBehaviour
 	
 	void Start()
 	{
-		player_position = new Vector3(0,0,0);
+		player_position = GameObject.FindWithTag("Player1").transform.position;
 	}
 
 	void Update()

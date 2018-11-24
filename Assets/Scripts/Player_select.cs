@@ -8,16 +8,18 @@ public class Player_select : MonoBehaviour
     bool canMovep1;
     bool canMovep2;
     bool canSelect1;
-    Color character_color;
+    Color player_color;
+
     void Start()
     {
-        GameObject character = GameObject.FindWithTag("Player1");
+        GameObject character = GameObject.FindWithTag("Character");
+        
+        GameObject player = GameObject.FindWithTag("Player1");
 
-        if(character !=null)
+        if(player !=null)
         {
-            character_color = character.GetComponent<Image>().color;
-            Debug.Log("this is the character's color " + character_color);
-
+            player_color = player.GetComponent<Image>().color;
+            Debug.Log("this is the player's color " + player_color);
         }
     }
 
@@ -66,8 +68,8 @@ public class Player_select : MonoBehaviour
                 if (Physics.Raycast(ray,out hit, 100) && hit.collider.tag =="Player1")
                 {
                     Debug.Log("Contact was made");
-                    character_color = new Color32(255,255,255,100);;
-                    Debug.Log("this is the character's color " + character_color);
+                    player_color = new Color32(255,255,255,100);;
+                    Debug.Log("this is the player's color " + player_color);
 
                     canSelect1 = false;
                 }
