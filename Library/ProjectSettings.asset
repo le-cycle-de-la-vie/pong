@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 47cf1f5f7ff934ee1ad3a41476f029b3
+  productGUID: 096da559d732d4e19b95083927bf0224
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Pong
+  productName: Mario_pong
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -619,8 +619,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 78c7d206-5c22-4402-bbf9-f69218920517
-  projectName: Pong
+  cloudProjectId: 6b5f662c-af5f-435b-96a0-c03ac89c1cfd
+  projectName: Mario_pong
   organizationId: gael_schlupp
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

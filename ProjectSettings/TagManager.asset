@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Player01
-  - Player02
-  - Right_wall
-  - Left_wall
-  - Ball
+  - Player1
+  - Player2
+  - Character
   layers:
   - Default
   - TransparentFX
@@ -18,9 +16,9 @@ TagManager:
   - UI
   - 
   - 
-  - Background
-  - Player
-  - Ball
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -44,11 +42,14 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Background
-    uniqueID: 2001250421
+    uniqueID: 4284096247
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 238847975
+  - name: Players
+    uniqueID: 2737942109
+    locked: 0
+  - name: UI
+    uniqueID: 1819774907
     locked: 0
