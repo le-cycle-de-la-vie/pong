@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Test_game_manager : MonoBehaviour {
 
-	public Color selectedPlayer = Color.grey;
-	public bool isColored = true;
+	public static Color selectedPlayer = Color.yellow;
 	public static Test_game_manager instance = null;
 
 	void Awake(){
@@ -15,9 +14,7 @@ public class Test_game_manager : MonoBehaviour {
 	}
 
 	public void updateSelectedPlayer(Color color){
-		if(isColored = true){
 			selectedPlayer = color;
-		}
 	}
 }
 
