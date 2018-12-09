@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Player1
-  - Player2
-  - Character
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -47,9 +44,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Players
-    uniqueID: 2737942109
-    locked: 0
   - name: UI
     uniqueID: 1819774907
+    locked: 0
+  - name: Items
+    uniqueID: 4138880747
+    locked: 0
+  - name: Players
+    uniqueID: 2737942109
     locked: 0

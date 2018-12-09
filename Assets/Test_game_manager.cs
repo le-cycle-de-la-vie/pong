@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Test_game_manager : MonoBehaviour {
 
-	// coffre dans un coffre
 	public Color selectedPlayer = Color.grey;
-	// c'est le coffre et la clé
+	public bool isColored = true;
 	public static Test_game_manager instance = null;
 
 	void Awake(){
@@ -15,9 +14,10 @@ public class Test_game_manager : MonoBehaviour {
 		}
 	}
 
-	// coffre dans un coffre
 	public void updateSelectedPlayer(Color color){
-		selectedPlayer = color;
+		if(isColored = true){
+			selectedPlayer = color;
+		}
 	}
 }
 
