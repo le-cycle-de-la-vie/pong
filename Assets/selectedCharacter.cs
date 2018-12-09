@@ -6,20 +6,22 @@ using UnityEngine.UI;
 public class selectedCharacter : MonoBehaviour {
 
     Image sprite;
+    Color initial;
 
     void Start()
     {
+        initial = Test_game_manager.selectedPlayer;
         sprite = GetComponent<Image>();
+        updateColor(initial);
     }
 
-	// prends le trésor et manipule le
-	// si la couleur est changé, ne la change pas (loop to do)
 	void Update(){
-		updateColor(Test_game_manager.instance.selectedPlayer);
+        if(Test_game_manager.selectedPlayer != initial){
+            updateColor(Test_game_manager.selectedPlayer);
+        }
 	}
 
     void updateColor(Color color){
         sprite.CrossFadeColor(color,0,false,false);
-		Debug.Log("n'importe quoi");
     }
 }
